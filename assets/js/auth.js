@@ -23,6 +23,9 @@ function handleAuthentication() {
     if (authResult && authResult.accessToken && authResult.idToken) {
       window.location.hash = '';
       setSession(authResult);
+
+      localStorage.setItem('login','true');
+      
     } else if (err) {
       console.log(err);
       alert('Login fehlgeschlagen: ' + err.error);
