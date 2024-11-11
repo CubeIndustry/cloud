@@ -1,2 +1,2 @@
 # CubeIndustry Cloud
-### A simple way to transfare your data's to other devices.
+### Have you ever asked where we store our pictures?
