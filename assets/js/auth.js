@@ -24,7 +24,7 @@ function handleAuthentication() {
       window.location.hash = '';
       setSession(authResult);
 
-      localStorage.setItem('login','true');
+      window.location.href = 'https://cubeindustry.github.io/cloud/cloud.html';
       
     } else if (err) {
       console.log(err);
